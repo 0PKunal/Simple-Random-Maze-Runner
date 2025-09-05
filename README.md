@@ -33,7 +33,7 @@ Each play generates a new maze, making every run unique!
 
 ### Option 1: Run the `.exe` (Windows)
 
-1. Download the pre-built `rmr.exe` from the `dist/` folder (or release page if available).
+1. Download the pre-built `rmr.exe` from the repo.
 2. Double-click it to play — no Python or Pygame required!
 
 ### Option 2: Run from Python (Cross-platform)
