@@ -24,7 +24,7 @@ Each play generates a new maze, making every run unique!
 ---
 
 ## 📷 Screenshot
-*(Add your Screenshot here, e.g. `![Maze Screenshot](Screenshot.png)`)*
+ ![Maze Screenshot](Screenshot.png)
 
 
 ---
