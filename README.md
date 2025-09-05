@@ -1,17 +1,3 @@
-Got it ✅ You want a **clean README.md** for your project *Simple Random Maze Runner*.
-Since you have only the `.py` source and `.exe` build, and it’s MIT licensed, I’ll include:
-
-* Project title + description
-* Features
-* Controls
-* Screenshots placeholder
-* How to run (Python & EXE)
-* Build instructions (PyInstaller for Windows/Linux)
-* License
-
-Here’s the **README.md code** 👇
-
-```markdown
 # 🌀 Simple Random Maze Runner
 
 A simple maze game built with **Python** and **Pygame**, where the player navigates through a randomly generated maze to reach the exit.  
@@ -38,8 +24,8 @@ Each play generates a new maze, making every run unique!
 ---
 
 ## 📷 Screenshot
-*(Add your screenshot here, e.g. `![Maze Screenshot](screenshot.png)`)*
-```
+*(Add your Screenshot here, e.g. `![Maze Screenshot](Screenshot.png)`)*
+
 
 ---
 
@@ -47,7 +33,7 @@ Each play generates a new maze, making every run unique!
 
 ### Option 1: Run the `.exe` (Windows)
 
-1. Download the pre-built `maze_game.exe` from the `dist/` folder (or release page if available).
+1. Download the pre-built `rmr.exe` from the `dist/` folder (or release page if available).
 2. Double-click it to play — no Python or Pygame required!
 
 ### Option 2: Run from Python (Cross-platform)
@@ -61,7 +47,7 @@ Each play generates a new maze, making every run unique!
 3. Run the script:
 
    ```bash
-   python maze_game.py
+   python rmr.py
    ```
 
 ---
@@ -72,20 +58,20 @@ Each play generates a new maze, making every run unique!
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed maze_game.py
+pyinstaller --onefile --windowed rmr.py
 ```
 
-Output: `dist/maze_game.exe`
+Output: `dist/rmr.exe`
 
 ### Linux (binary)
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile maze_game.py
+pyinstaller --onefile rmr.py
 ```
 
-Output: `dist/maze_game`
-(make it executable with `chmod +x dist/maze_game`)
+Output: `dist/rmr`
+(make it executable with `chmod +x dist/rmr`)
 
 ---
 
@@ -93,3 +79,9 @@ Output: `dist/maze_game`
 
 This project is licensed under the [MIT License](LICENSE).
 You are free to use, modify, and distribute this game.
+
+---
+<div align="center">
+  <p>Made with ❤️ by <a href="https://github.com/0PKunal">0PKunal</a></p>
+  <p>If this project helped you, please give it a ⭐️</p>
+</div>
